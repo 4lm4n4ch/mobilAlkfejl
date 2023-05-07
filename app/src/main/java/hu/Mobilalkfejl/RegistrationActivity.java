@@ -107,7 +107,7 @@ public class RegistrationActivity extends AppCompatActivity {
         }
 
 
-        // Alkalmazd az animációt a nézetre (például egy gombra)
+     
 
 
 
