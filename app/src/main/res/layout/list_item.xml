@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:backgroundTint="#FFF1DC">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#3A98B9">
+
+
+        <TextView
+            android:id="@+id/munkaNeveTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/itemName" />
+
+        <TextView
+            android:id="@+id/munkaLeirasTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/munkaNeveTV"
+            android:padding="8dp"
+            android:text="@string/itemName" />
+
+        <TextView
+            android:id="@+id/munkaFizetesTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/munkaLeirasTV"
+            android:padding="8dp"
+            android:text="@string/itemName" />
+
+        <TextView
+            android:id="@+id/munkaPhone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/munkaFizetesTV"
+            android:padding="8dp"
+            android:text="@string/itemName" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/munkaPhone"
+            android:layout_centerHorizontal="true">
+
+            <Button
+                android:id="@+id/jelentkezesButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/munkaFizetesTV"
+                android:backgroundTint="#EEEEEE"
+                android:padding="8dp"
+                android:text="Jelentkezes"
+                android:textColor="#000000" />
+
+            <Button
+                android:id="@+id/torlesButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/munkaFizetesTV"
+                android:backgroundTint="#EEEEEE"
+                android:padding="8dp"
+                android:text="Torles"
+                android:textColor="#0B0A0A" />
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

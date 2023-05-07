@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">MobilKotProg</string>
+    <string name="regisztration">Regisztráció</string>
+    <string name="name">Név</string>
+    <string name="password">Jelszo</string>
+    <string name="phoneNumber">telefonszam</string>
+    <string name="itemName">itemName_placeholder</string>
+    <string name="megse">Mégsem</string>
+
+    <!-- Munkák -->
+    <string-array name="munkak">
+
+        <item>Adatelemző</item>
+        <item>Marketing menedzser</item>
+        <item>HR menedzser</item>
+        <item>Ügyfélszolgálati munkatárs</item>
+        <item>Logisztikai menedzser</item>
+        <item>Értékesítési menedzser</item>
+        <item>Rendszergazda</item>
+    </string-array>
+
+    <!-- Leírások -->
+    <string-array name="leirasok">
+
+        <item>Statisztikák, BI</item>
+        <item>Kreatív stratégia</item>
+        <item>Munkaerő kezelés</item>
+        <item>Segít, informál</item>
+        <item>Szállítás, raktár</item>
+        <item>Üzleti kapcs.</item>
+        <item>IT infrastrukt.</item>
+    </string-array>
+
+    <!-- Bérek -->
+    <string-array name="ber">
+
+        <item>700000</item>
+        <item>650000</item>
+        <item>600000</item>
+        <item>350000</item>
+        <item>550000</item>
+        <item>700000</item>
+        <item>600000</item>
+    </string-array>
+
+
+    <string-array name="telefon">
+
+        <item>+3645678901</item>
+        <item>+3656789012</item>
+        <item>+3667890123</item>
+        <item>+3678901234</item>
+        <item>+3689012345</item>
+        <item>+3690123456</item>
+        <item>+3610123456</item>
+    </string-array>
+
+</resources>

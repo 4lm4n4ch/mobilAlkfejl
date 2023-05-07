@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InstrukcioActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".InstrukcioActivity">
+
+        <TextView
+            android:id="@+id/koszonoText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Az alkalmazás használatához instrukciók"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="41dp" />
+
+        <TextView
+            android:id="@+id/instrukciok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Az alkalmazásban lehet regisztrálni és bejelentkezni sikeres bejelentkezés után az állásokat listáza az alkalmazás amikre lehet jelentkezni és törölni őket. Jelentkezés eg sms-el történik amit a rendszer automatikusan küld."
+            android:layout_below="@+id/koszonoText"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Értem"
+            android:layout_below="@+id/instrukciok"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true"/>
+
+    </RelativeLayout>
+</ScrollView>
